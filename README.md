@@ -32,6 +32,8 @@ Das Projekt basiert auf Python und wird über einen Raspberry Pi Modell B+ ausge
 
 HIER NOCH BILDER EINFÜGEN:
 
+AUCH VON DEM AUFBAU GENERELL
+
 ![GUI](./Screenshot_GUI.png "GUI")
 
 **Ausschluss der Haftung**
