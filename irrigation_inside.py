@@ -9,14 +9,12 @@ import RPi.GPIO as GPIO
 import time
 
 SWITCH_PIN = 11  # physical pin 11 (= GPIO 17 in BCM mode)
-# LOW = water pump is turned off
+IRRIGATION_SECS = 10 # irrigation in seconds
 
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(SWITCH_PIN, GPIO.OUT, initial=GPIO.LOW)
+GPIO.setup(SWITCH_PIN, GPIO.OUT, initial=GPIO.LOW) # LOW = water pump is turned off
 
 GPIO.output(SWITCH_PIN, GPIO.HIGH)   # turn pump on
-
-time.sleep(5) # irrigation in seconds
-
+time.sleep(IRRIGATION_SECS)
 GPIO.output(SWITCH_PIN, GPIO.LOW)  # turn pump off
 
