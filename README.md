@@ -10,7 +10,7 @@ von Eric Schöbel
  + Innenbewässerung: Tägliche, automatische Bewässerung einer festgelegten Dauer
  + Außenbewässerung mit Wetterabhängigkeit:
     - Abruf der täglichen Wetterdaten (Temperatur und Niederschlag)
-    - Keine Bewässerung bei Niederschlag
+    - Keine Bewässerung bei Niederschlag (Regen, Schnee, Hagel, Graupel, ...)
     - Bewässerung ab 20°C oder alle drei Tage bei niedrigeren Temperaturen
  + Dateibasierte Speicherung der letzten Bewässerung für eine adaptive Bewässerung nach Temperatur- und Zeitkriterien
  
