@@ -19,7 +19,7 @@ IRRIGATION_SECS = 10 # irrigation in seconds
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(SWITCH_PIN, GPIO.OUT, initial=GPIO.LOW) # LOW = water pump is turned off
 
-# Datei, um den letzten Bewässerungstag zu speichern FIXME
+# File to store the last irrigation day
 LAST_WATERING_FILE = "~/Desktop/last_watering.txt" # lists only watering day numbers
 CURRENT_DAY = time.localtime().tm_yday  # day number in the year (1 to 365)
 
