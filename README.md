@@ -20,9 +20,9 @@ Das Projekt basiert auf Python und wird über einen Raspberry Pi Modell B+ ausge
 
 **Codebestandteile**
 
-+ gpio_init.py: Initialisiert den GPIO-Pin zur Steuerung der Wasserpumpe.
-+ irrigation_inside.py: Steuert die Innenbewässerung, aktiviert die Pumpe für eine festgelegte Anzahl an Sekunden.
-+ irrigation_outside.py: Steuert die Außenbewässerung, inklusive Abruf von Wetterdaten und Entscheidungslogik zur Bewässerung.
++ gpio_init.py: Initialisiert den GPIO-Pin zur Steuerung der Wasserpumpe
++ irrigation_inside.py: Steuert die Innenbewässerung, aktiviert die Pumpe für eine festgelegte Anzahl an Sekunden
++ irrigation_outside.py: Steuert die Außenbewässerung, inklusive Abruf von Wetterdaten und Entscheidungslogik zur Bewässerung
 
 **Aufbau**
 
